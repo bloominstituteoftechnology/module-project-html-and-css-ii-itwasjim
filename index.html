@@ -97,8 +97,10 @@
     Make them display as inline block, instead of block.
     This will make them render on the same line. */
 
-    #headerTop > div {
-      display: inline-block;
+    #headerTop {
+      display: flex;
+      align-items: baseline;
+      justify-content: space-between;
     }
 
     /* 👉 Task 5- Target the spans that are nested inside the id headerTop.
@@ -130,8 +132,10 @@
     This will cause them to render on the same line.
     You can consolidate this rule with the one on step. 4 */
 
-    #headerBottom > div {
-      display: inline-block;
+    #headerBottom {
+      display: flex;
+      align-items: baseline;
+      justify-content: space-between;
     }
 
     /* 👉 Task 9- Target the "Compose" button, although note it's a div instead an actual button.
@@ -172,8 +176,8 @@
     and make them display as inline-block elements.
     This will make each email render all its details in the same line*/
 
-    .email > div {
-      display: inline-block;
+    .email {
+      display: flex;
     }
 
 
